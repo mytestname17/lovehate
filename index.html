@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/fonts/Material-Design-Icons.woff">-->
+        <!--<link rel="stylesheet" href="css/materialize.css"/>-->
+        <!--<link href='../font/material-design-icons/Material-Design-Icons.woff2' rel='stylesheet' type='text/css'>-->
+        <link rel="stylesheet" href="css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <title>LoverHater</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Dropdown Structure -->
+            <nav class="nav">
+                <div class="nav__logo">LoveHate</div>
+                <form class="search" action="#">
+                    <input class="search__input" type="search" placeholder="Введите поисковый запрос..." />
+                </form>
+                <ul class="menu">
+                    <li class="menu__user-item"><a href="#"><i class="mdi mdi-account-circle"></i></a></li>
+                </ul>
+            </nav>
+            <div class="post">
+                <h1 class="post__header">Тут, типа, написана тема от которой у всех жесткий батхерт!</h1>
+            </div>
+            <form class="opinion">
+                <span class="opinion__label">Ваше мнение:</span>
+                <textarea name="opinion__input" id="opinion__input" class="opinion__input" palceholder="Поделитесь своим мнением об этом"></textarea>
+                <div class='row'>
+                    <div class="opinion__buttons-wrapper">
+                        <button type="submit" class="opinion__btn--positive opinion__btn--margin_right_1em"><i class="mdi mdi-heart-outline"></i> Согласен</button>
+                        <button type="submit" class="opinion__btn--negative"><i class="mdi mdi-heart-broken"></i> Не согласен</button>
+                    </div>
+                </div>
+            </form>
+            <div class="users-opinion__wrapper">
+                <h2 class="users-opinion__header">Что об этом думают другие</h2>
+                <div class="row">
+                    <div class="col l6">
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--negative">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--negative">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии(1)</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--negative">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l6">
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--positive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--positive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии(5)</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--positive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessitatibus odio nulla reiciendis repudiandae blanditiis voluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--positive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil necessicusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--positive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deserunt fuga, nihil nevoluptatibus iure, doloremque accusamus sint ut, vero id. Totam modi laboriosam rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum praesentium eligendi blanditiis voluptatibus, at dolor soluta doloremque velit assumenda unde cumque atque eveniet nostrum commodi quas. Nemo unde, sit et!</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <header class="message__head">
+                                <img src="img/avatar.jpg" alt="avatar" class="message__avatar">
+                                <div class="message__desc">
+                                    <span class="message__nickname">Bender</span>
+                                    <span class="message__underline">Убивать человеков!</span>
+                                </div>
+                            </header>
+                            <div class="message__body--positive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non deue accusamus sint ut, vero id. Totam modi laboriosam rem.</div>
+                            <div class="row">
+                                <a href="" class="message__comment-btn">Коментарии</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <i class="fa fa-user"></i>
+        <i class="large mdi-action-face-unlock"></i>
+        <i class="mdi mdi-account-circle"></i>
+        <!--Подключаем скрипты-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <!--<script src="js/materialize.min.js"></script>-->
+    </body>
+</html>
